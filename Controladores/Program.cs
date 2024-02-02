@@ -6,21 +6,12 @@ namespace Ejercicio1.CpE
     {
         public static void Main(string[] args)
         {
-            //Variables
-
-            int valor;
-            string num;
-            int x = 1;
-            int y = 1;
-            int z = 1;
-
-            //Creación de objetos
-            MenuInterfaz mi = new MenuImplementacion();
+          
+            //Creación de objetos 
             OperacionInterfaz oi = new OperacionImplementacion();
-            //Guardamos el valor a través de los métodos
-            valor = mi.pedirNumero();
-            oi.operacion(x,y,z);
-            num = oi.descendente(valor);
+            //Guardamos el valor a través de los métodos 
+            oi.operacion();
+       
         }
 
     }

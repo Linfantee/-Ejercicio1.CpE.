@@ -8,9 +8,7 @@ namespace Ejercicio1.CpE.Servicios
 {
     internal interface OperacionInterfaz
     {
-        public void operacion(int y, int x, int z);
-
-        public string descendente(int valor);
+        public float operacion();
        
     }
 }
