@@ -25,8 +25,9 @@ namespace Ejercicio1.CpE.Servicios
 
             //ordenamos por orden descendente el valor de la división
             string aux = "";
+            int resultado = Convert.ToInt32(division);
 
-            for (int i = 1; i <= division; i++)
+            for (int i = resultado; i >= 1; i--)
             {
                 aux = aux + i;
                 Console.WriteLine(aux);
